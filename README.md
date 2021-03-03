@@ -7,7 +7,7 @@
 *	 E Gerar um relatório em html ou json
 
 
-##Instalação e Run:
+## Instalação e Run:
 *	Baixar o código fonte
 
 *	Apagar diretório de reports definido como target
