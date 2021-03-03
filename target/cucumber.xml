@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="365.907">
+    <testcase classname="Menu Mobile" name="Acessar Menus do site na versao mobile" time="27.929">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Quem somos"..............................passed
+Entao deve ir para "https://auditeste.com.br/quem-somos/" e mostrar "//QUEM SOMOS".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menus do site na versao mobile 2" time="27.983">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Cases de Sucesso"........................passed
+Entao deve ir para "https://auditeste.com.br/cases-de-sucesso/" e mostrar "//CASES DE SUCESSO".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menus do site na versao mobile 3" time="25.75">
+        <failure message="expected:&lt;//TRABALHE[ ]CONOSCO&gt; but was:&lt;//TRABALHE[&#10;]CONOSCO&gt;" type="org.junit.ComparisonFailure"><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Trabalhe Conosco"........................passed
+Entao deve ir para "https://auditeste.com.br/trabalhe-conosco/" e mostrar "//TRABALHE CONOSCO".failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<//TRABALHE[ ]CONOSCO> but was:<//TRABALHE[
+]CONOSCO>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at steps_definitions.siteMenuPrincipal.valida_escolha(siteMenuPrincipal.java:71)
+	at steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(siteMenuPrincipal.java:94)
+	at ✽.deve ir para "https://auditeste.com.br/trabalhe-conosco/" e mostrar "//TRABALHE CONOSCO"(file:///D:/chris/Documents/ProjetoAppium/src/test/java/features/site.feature:10)
+]]></failure>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menus do site na versao mobile 4" time="25.562">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Blog"....................................passed
+Entao deve ir para "https://auditeste.com.br/blog/" e mostrar "//BLOG"......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menus do site na versao mobile 5" time="25.498">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu e escolho "Contato".................................passed
+Entao deve ir para "https://auditeste.com.br/contato/" e mostrar "//CONTATO".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile" time="26.471">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Testes Automatizados"............passed
+Entao devera ir para "https://auditeste.com.br/servicos/testes-automatizados/" e mostrar "//TESTES AUTOMATIZADOS".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile 2" time="23.912">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Testes Funcionais Não Funcionais".passed
+Entao devera ir para "https://auditeste.com.br/servicos/testes-funcionais-nao-funcionais/" e mostrar "//TESTES FUNCIONAIS NÃO FUNCIONAIS".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile 3" time="24.325">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Testes Manuais"..................passed
+Entao devera ir para "https://auditeste.com.br/servicos/testes-manuais/" e mostrar "//TESTES MANUAIS".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile 4" time="24.711">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Testes Mobile"...................passed
+Entao devera ir para "https://auditeste.com.br/servicos/testes-mobile/" e mostrar "//TESTES MOBILE".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile 5" time="26.759">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Fábrica de Testes"...............passed
+Entao devera ir para "https://auditeste.com.br/servicos/testes-fabrica/" e mostrar "//FÁBRICA DE TESTES".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile 6" time="24.978">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Consultoria".....................passed
+Entao devera ir para "https://auditeste.com.br/servicos/testes-consultoria/" e mostrar "//CONSULTORIA".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile 7" time="27.035">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Crowdsourced Auditeste"..........passed
+Entao devera ir para "https://auditeste.com.br/servicos/crowdsourced-auditeste/" e mostrar "//CROWDSOURCED AUDITESTE".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile 8" time="27.324">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Alocação de Profissionais".......passed
+Entao devera ir para "https://auditeste.com.br/servicos/teste-alocacao/" e mostrar "//ALOCAÇÃO DE PROFISSIONAIS".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Menu Mobile" name="Acessar Menu Serviço do site na versao mobile 9" time="27.197">
+        <system-out><![CDATA[Dado que esteja na home da pagina...........................................passed
+Quando eu clico no Menu Servico e escolho "Automação de Processos"..........passed
+Entao devera ir para "https://auditeste.com.br/servicos/automacao-de-processos/" e mostrar "//AUTOMAÇÃO DE PROCESSOS".passed
+]]></system-out>
+    </testcase>
+</testsuite>

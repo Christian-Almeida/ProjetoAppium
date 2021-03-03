@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Menu Mobile" tests="14" skipped="0" failures="1" errors="0" timestamp="2021-03-03T16:58:33" hostname="CHRIS" time="365.787">
+  <properties/>
+  <testcase name="Acessar Menus do site na versao mobile #1" classname="Menu Mobile" time="28.176"/>
+  <testcase name="Acessar Menus do site na versao mobile #2" classname="Menu Mobile" time="27.993"/>
+  <testcase name="Acessar Menus do site na versao mobile #3" classname="Menu Mobile" time="25.764">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;//TRABALHE[ ]CONOSCO&gt; but was:&lt;//TRABALHE[&#10;]CONOSCO&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;//TRABALHE[ ]CONOSCO&gt; but was:&lt;//TRABALHE[
+]CONOSCO&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at steps_definitions.siteMenuPrincipal.valida_escolha(siteMenuPrincipal.java:71)
+	at steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(siteMenuPrincipal.java:94)
+	at ✽.deve ir para &quot;https://auditeste.com.br/trabalhe-conosco/&quot; e mostrar &quot;//TRABALHE CONOSCO&quot;(file:///D:/chris/Documents/ProjetoAppium/src/test/java/features/site.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Acessar Menus do site na versao mobile #4" classname="Menu Mobile" time="25.57"/>
+  <testcase name="Acessar Menus do site na versao mobile #5" classname="Menu Mobile" time="25.505"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #1" classname="Menu Mobile" time="26.478"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #2" classname="Menu Mobile" time="23.919"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #3" classname="Menu Mobile" time="24.334"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #4" classname="Menu Mobile" time="24.718"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #5" classname="Menu Mobile" time="26.772"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #6" classname="Menu Mobile" time="24.983"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #7" classname="Menu Mobile" time="27.042"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #8" classname="Menu Mobile" time="27.33"/>
+  <testcase name="Acessar Menu Serviço do site na versao mobile #9" classname="Menu Mobile" time="27.203"/>
+  <system-out><![CDATA[
+Esquema do Cenario: Acessar Menus do site na versao mobile                           ?[90m# src/test/java/features/site.feature:13?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                  ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m"Quem somos"?[0m                                     ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m"https://auditeste.com.br/quem-somos/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//QUEM SOMOS"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menus do site na versao mobile                                       ?[90m# src/test/java/features/site.feature:14?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                              ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m"Cases de Sucesso"?[0m                                           ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m"https://auditeste.com.br/cases-de-sucesso/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//CASES DE SUCESSO"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menus do site na versao mobile                                       ?[90m# src/test/java/features/site.feature:15?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                              ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m"Trabalhe Conosco"?[0m                                           ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[31mEntao ?[0m?[31mdeve ir para ?[0m?[31m?[1m"https://auditeste.com.br/trabalhe-conosco/"?[0m?[31m e mostrar ?[0m?[31m?[1m"//TRABALHE CONOSCO"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+      ?[31morg.junit.ComparisonFailure: expected:<//TRABALHE[ ]CONOSCO> but was:<//TRABALHE[
+]CONOSCO>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at steps_definitions.siteMenuPrincipal.valida_escolha(siteMenuPrincipal.java:71)
+	at steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(siteMenuPrincipal.java:94)
+	at âœ½.deve ir para "https://auditeste.com.br/trabalhe-conosco/" e mostrar "//TRABALHE CONOSCO"(file:///D:/chris/Documents/ProjetoAppium/src/test/java/features/site.feature:10)
+?[0m
+
+Esquema do Cenario: Acessar Menus do site na versao mobile               ?[90m# src/test/java/features/site.feature:16?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                      ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m"Blog"?[0m                               ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m"https://auditeste.com.br/blog/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//BLOG"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menus do site na versao mobile                     ?[90m# src/test/java/features/site.feature:17?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                            ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu e escolho ?[0m?[32m?[1m"Contato"?[0m                                  ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdeve ir para ?[0m?[32m?[1m"https://auditeste.com.br/contato/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//CONTATO"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                                   ?[90m# src/test/java/features/site.feature:28?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                                 ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"Testes Automatizados"?[0m                                                  ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/testes-automatizados/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//TESTES AUTOMATIZADOS"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                                                           ?[90m# src/test/java/features/site.feature:29?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                                                         ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"Testes Funcionais NÃ£o Funcionais"?[0m                                                              ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/testes-funcionais-nao-funcionais/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//TESTES FUNCIONAIS NÃƒO FUNCIONAIS"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                       ?[90m# src/test/java/features/site.feature:30?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                     ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"Testes Manuais"?[0m                                            ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/testes-manuais/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//TESTES MANUAIS"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                     ?[90m# src/test/java/features/site.feature:31?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                   ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"Testes Mobile"?[0m                                           ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/testes-mobile/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//TESTES MOBILE"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                          ?[90m# src/test/java/features/site.feature:32?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                        ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"FÃ¡brica de Testes"?[0m                                            ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/testes-fabrica/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//FÃ�BRICA DE TESTES"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                        ?[90m# src/test/java/features/site.feature:33?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                      ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"Consultoria"?[0m                                                ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/testes-consultoria/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//CONSULTORIA"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                                       ?[90m# src/test/java/features/site.feature:34?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                                     ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"Crowdsourced Auditeste"?[0m                                                    ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/crowdsourced-auditeste/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//CROWDSOURCED AUDITESTE"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                                  ?[90m# src/test/java/features/site.feature:35?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                                ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"AlocaÃ§Ã£o de Profissionais"?[0m                                            ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/teste-alocacao/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//ALOCAÃ‡ÃƒO DE PROFISSIONAIS"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+
+Esquema do Cenario: Acessar Menu ServiÃ§o do site na versao mobile                                                       ?[90m# src/test/java/features/site.feature:36?[0m
+  ?[32mDado ?[0m?[32mque esteja na home da pagina?[0m                                                                                     ?[90m# steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()?[0m
+  ?[32mQuando ?[0m?[32meu clico no Menu Servico e escolho ?[0m?[32m?[1m"AutomaÃ§Ã£o de Processos"?[0m                                                    ?[90m# steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)?[0m
+  ?[32mEntao ?[0m?[32mdevera ir para ?[0m?[32m?[1m"https://auditeste.com.br/servicos/automacao-de-processos/"?[0m?[32m e mostrar ?[0m?[32m?[1m"//AUTOMAÃ‡ÃƒO DE PROCESSOS"?[0m ?[90m# steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[mar. 03, 2021 1:58:48 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 1:59:14 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 1:59:42 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:00:07 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:00:33 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:00:58 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:01:25 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:01:49 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:02:13 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:02:38 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:03:05 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:03:30 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:03:57 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+mar. 03, 2021 2:04:26 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -1,0 +1,1204 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-03T16:58:34.179Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13712658200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Acessar Menus do site na versao mobile",
+        "description": "    Acessar Menus principais do site",
+        "id": "menu-mobile;acessar-menus-do-site-na-versao-mobile;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 655307500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6979265000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 6297494400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu clico no Menu e escolho \"Quem somos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Quem somos\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 93782200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "deve ir para \"https://auditeste.com.br/quem-somos/\" e mostrar \"//QUEM SOMOS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/quem-somos/\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"//QUEM SOMOS\"",
+                  "offset": 62
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T16:59:02.131Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12084791400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Acessar Menus do site na versao mobile",
+        "description": "    Acessar Menus principais do site",
+        "id": "menu-mobile;acessar-menus-do-site-na-versao-mobile;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 433840400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7078700500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 8269984600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu clico no Menu e escolho \"Cases de Sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cases de Sucesso\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 107714400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "deve ir para \"https://auditeste.com.br/cases-de-sucesso/\" e mostrar \"//CASES DE SUCESSO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/cases-de-sucesso/\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"//CASES DE SUCESSO\"",
+                  "offset": 68
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T16:59:30.123Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12195450400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Acessar Menus do site na versao mobile",
+        "description": "    Acessar Menus principais do site",
+        "id": "menu-mobile;acessar-menus-do-site-na-versao-mobile;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 428852200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7034303300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5989820100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu clico no Menu e escolho \"Trabalhe Conosco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Trabalhe Conosco\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c//TRABALHE[ ]CONOSCO\u003e but was:\u003c//TRABALHE[\n]CONOSCO\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat steps_definitions.siteMenuPrincipal.valida_escolha(siteMenuPrincipal.java:71)\r\n\tat steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(siteMenuPrincipal.java:94)\r\n\tat ✽.deve ir para \"https://auditeste.com.br/trabalhe-conosco/\" e mostrar \"//TRABALHE CONOSCO\"(file:///D:/chris/Documents/ProjetoAppium/src/test/java/features/site.feature:10)\r\n",
+              "duration": 93749000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "deve ir para \"https://auditeste.com.br/trabalhe-conosco/\" e mostrar \"//TRABALHE CONOSCO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/trabalhe-conosco/\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"//TRABALHE CONOSCO\"",
+                  "offset": 68
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T16:59:55.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12086162700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Acessar Menus do site na versao mobile",
+        "description": "    Acessar Menus principais do site",
+        "id": "menu-mobile;acessar-menus-do-site-na-versao-mobile;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 316152800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7736557000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5329656000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu clico no Menu e escolho \"Blog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blog\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 85794600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "deve ir para \"https://auditeste.com.br/blog/\" e mostrar \"//BLOG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/blog/\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"//BLOG\"",
+                  "offset": 56
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:00:21.455Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12332157000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Acessar Menus do site na versao mobile",
+        "description": "    Acessar Menus principais do site",
+        "id": "menu-mobile;acessar-menus-do-site-na-versao-mobile;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 619560600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6669915600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5793752300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu clico no Menu e escolho \"Contato\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contato\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 78802500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "deve ir para \"https://auditeste.com.br/contato/\" e mostrar \"//CONTATO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/contato/\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"//CONTATO\"",
+                  "offset": 59
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:00:46.960Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11960229900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 350064700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9159198700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4903931100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Testes Automatizados\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testes Automatizados\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 94745400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/testes-automatizados/\" e mostrar \"//TESTES AUTOMATIZADOS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/testes-automatizados/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//TESTES AUTOMATIZADOS\"",
+                  "offset": 83
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:01:13.438Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11713520800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 463023900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7117951100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4529150300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Testes Funcionais Não Funcionais\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testes Funcionais Não Funcionais\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 83775500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/testes-funcionais-nao-funcionais/\" e mostrar \"//TESTES FUNCIONAIS NÃO FUNCIONAIS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/testes-funcionais-nao-funcionais/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//TESTES FUNCIONAIS NÃO FUNCIONAIS\"",
+                  "offset": 95
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:01:37.357Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11786180500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 479646900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6928331500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5017112100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Testes Manuais\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testes Manuais\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 107707800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/testes-manuais/\" e mostrar \"//TESTES MANUAIS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/testes-manuais/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//TESTES MANUAIS\"",
+                  "offset": 77
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:02:01.692Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12148143800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 377256100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7264553600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4821225700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Testes Mobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testes Mobile\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 95310700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/testes-mobile/\" e mostrar \"//TESTES MOBILE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/testes-mobile/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//TESTES MOBILE\"",
+                  "offset": 76
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:02:26.415Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12362044000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 373003600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7338468300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 6602129100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Fábrica de Testes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fábrica de Testes\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 76794200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/testes-fabrica/\" e mostrar \"//FÁBRICA DE TESTES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/testes-fabrica/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//FÁBRICA DE TESTES\"",
+                  "offset": 77
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:02:53.180Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12139092500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 395459300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7537491400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4711508300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Consultoria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Consultoria\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 84773600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/testes-consultoria/\" e mostrar \"//CONSULTORIA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/testes-consultoria/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//CONSULTORIA\"",
+                  "offset": 81
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:03:18.164Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12323169200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 401655600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6884923200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 7344577000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Crowdsourced Auditeste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Crowdsourced Auditeste\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 77789400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/crowdsourced-auditeste/\" e mostrar \"//CROWDSOURCED AUDITESTE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/crowdsourced-auditeste/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//CROWDSOURCED AUDITESTE\"",
+                  "offset": 85
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:03:45.205Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12202663000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 459846900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8473879700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 6088601900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Alocação de Profissionais\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alocação de Profissionais\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 94746000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/teste-alocacao/\" e mostrar \"//ALOCAÇÃO DE PROFISSIONAIS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/teste-alocacao/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//ALOCAÇÃO DE PROFISSIONAIS\"",
+                  "offset": 77
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T17:04:12.534Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14043985100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.configuraco()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Acessar Menu Serviço do site na versao mobile",
+        "description": "  Acessar Menu Serviço e suas respectivas paginas",
+        "id": "menu-mobile;acessar-menu-serviço-do-site-na-versao-mobile;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 353583200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6984233200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que esteja na home da pagina",
+            "match": {
+              "location": "steps_definitions.siteMenuPrincipal.queEstejaNaHomeDaPagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5725703800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu clico no Menu Servico e escolho \"Automação de Processos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automação de Processos\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.euClicoNoMenuServicoEEscolhoTitulo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 85766500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devera ir para \"https://auditeste.com.br/servicos/automacao-de-processos/\" e mostrar \"//AUTOMAÇÃO DE PROCESSOS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://auditeste.com.br/servicos/automacao-de-processos/\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"//AUTOMAÇÃO DE PROCESSOS\"",
+                  "offset": 85
+                }
+              ],
+              "location": "steps_definitions.siteMenuPrincipal.deveraIrParaUrlEMostrarTexto(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Menu Mobile",
+    "description": "",
+    "id": "menu-mobile",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/site.feature",
+    "tags": []
+  }
+]
